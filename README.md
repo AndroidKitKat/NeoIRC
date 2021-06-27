@@ -28,7 +28,6 @@ limitations under the License.
 - [ ] tons of bugs
 - [ ] actually add, delete and edit accounts :-)
 - [ ] keychain password storage
-- [ ] combining bubbles
 - [ ] better IRC support
 - [ ] state restoration (I tried, but NavigationLinks just don't work right)
 - [ ] listing available channels in subscribe
