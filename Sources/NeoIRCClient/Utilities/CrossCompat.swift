@@ -12,9 +12,9 @@ import SwiftUI
 #if os(macOS)
 
 extension View {
-  func navigationBarTitle(_ title: String) -> some View { return self }
-  
-  func navigationBarItems<T: View>(trailing: T) -> some View { return self }
+    func navigationBarTitle(_ title: String) -> some View { return self }
+    
+    func navigationBarItems<T: View>(trailing: T) -> some View { return self }
 }
 
 #endif // macOS

@@ -11,13 +11,13 @@ import SwiftUI
 import IRC
 
 struct JoinChannelView: View {
-
-  @ObservedObject var service : IRCService
-  
-  var body: some View {
-    VStack {
-      Text("TODO")
+    
+    @ObservedObject var service : IRCService
+    
+    var body: some View {
+        VStack {
+            Text("TODO")
+        }
+        .navigationBarTitle("Join Channel")
     }
-    .navigationBarTitle("Join Channel")
-  }
 }

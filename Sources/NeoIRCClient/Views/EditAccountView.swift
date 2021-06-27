@@ -11,13 +11,13 @@ import SwiftUI
 import IRC
 
 struct EditAccountView: View {
-
-  @ObservedObject var account : IRCAccount
-  
-  var body: some View {
-    VStack {
-      Text("Host: \(account.host)")
+    
+    @ObservedObject var account : IRCAccount
+    
+    var body: some View {
+        VStack {
+            Text("Host: \(account.host)")
+        }
+        .navigationBarTitle(account.host)
     }
-    .navigationBarTitle(account.host)
-  }
 }
