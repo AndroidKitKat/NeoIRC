@@ -1,7 +1,8 @@
 //
 //  IRCServiceManager.swift
-//  NeoIRC
+//  Danshou IRC
 //
+//  -=-=- Original author & copyright -=-=-
 //  Created by Helge Heß on 21.05.20.
 //  Copyright © 2020 ZeeZide GmbH. All rights reserved.
 //
@@ -39,7 +40,7 @@ public final class IRCServiceManager: ObservableObject {
     
     #if DEBUG
     if services.isEmpty {
-      addAccount(IRCAccount(host: "irc.noze.io", nickname: "Neo"))
+      addAccount(IRCAccount(host: "irc.libera.chat", nickname: "neoircuser"))
     }
     #endif
   }

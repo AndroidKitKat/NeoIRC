@@ -1,7 +1,8 @@
 //
 //  AppDelegate.swift
-//  NeoIRC-macOS
+//  Danshou IRC-macOS
 //
+//  -=-=- Original author & copyright -=-=-
 //  Created by Helge Heß on 23.05.20.
 //  Copyright © 2020 ZeeZide GmbH. All rights reserved.
 //

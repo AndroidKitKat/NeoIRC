@@ -1,7 +1,8 @@
 //
 //  ChannelListView.swift
-//  NeoIRC
+//  Danshou IRC
 //
+//  -=-=- Original author & copyright -=-=-
 //  Created by Helge Heß on 21.05.20.
 //  Copyright © 2020 ZeeZide GmbH. All rights reserved.
 //

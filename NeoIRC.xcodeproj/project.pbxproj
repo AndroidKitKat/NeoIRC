@@ -688,14 +688,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"NeoIRC-iOS/Preview Content\"";
-				DEVELOPMENT_TEAM = 4GXF3JAMM4;
+				DEVELOPMENT_TEAM = UYPY43BUFP;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "NeoIRC-iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = de.zeezide.swift.chat.NeoIRC;
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaeleisemann.danshou;
 				PRODUCT_NAME = NeoIRC;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -708,14 +708,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"NeoIRC-iOS/Preview Content\"";
-				DEVELOPMENT_TEAM = 4GXF3JAMM4;
+				DEVELOPMENT_TEAM = UYPY43BUFP;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "NeoIRC-iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = de.zeezide.swift.chat.NeoIRC;
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaeleisemann.danshou;
 				PRODUCT_NAME = NeoIRC;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -758,7 +758,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"NeoIRC-macOS/Preview Content\"";
-				DEVELOPMENT_TEAM = 4GXF3JAMM4;
+				DEVELOPMENT_TEAM = UYPY43BUFP;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "NeoIRC-macOS/Info.plist";
@@ -767,7 +767,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = "de.zeezide.swift.chat.NeoIRC-macOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaeleisemann.danshou;
 				PRODUCT_NAME = NeoIRC;
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
@@ -782,7 +782,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"NeoIRC-macOS/Preview Content\"";
-				DEVELOPMENT_TEAM = 4GXF3JAMM4;
+				DEVELOPMENT_TEAM = UYPY43BUFP;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "NeoIRC-macOS/Info.plist";
@@ -791,7 +791,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = "de.zeezide.swift.chat.NeoIRC-macOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaeleisemann.danshou;
 				PRODUCT_NAME = NeoIRC;
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
