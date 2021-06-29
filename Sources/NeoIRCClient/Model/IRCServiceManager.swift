@@ -40,7 +40,7 @@ public final class IRCServiceManager: ObservableObject {
         
 #if DEBUG
         if services.isEmpty {
-            addAccount(IRCAccount( host: "irc.snoonet.org", port: 6667, nickname: "danshou_user", activeRecipients: [ "#danshou" ]))
+            addAccount(IRCAccount( host: "ircd", port: 6667, nickname: "danshoUser", activeRecipients: [ "#danshou" ]))
         }
 #endif
     }

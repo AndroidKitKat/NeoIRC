@@ -119,7 +119,7 @@ struct AddNetworkView: View {
             })
             .navigationBarItems(trailing: Button(action: {
                 print("save network")
-                serviceManager.addAccount(IRCAccount(id: UUID(), host: newNetworkAddress, port: Int(newNetworkPort)!, nickname: newNetworkNick, activeRecipients: [ "#lug" ]))
+                serviceManager.addAccount(IRCAccount(id: UUID(), host: newNetworkAddress, port: Int(newNetworkPort)!, nickname: newNetworkNick, activeRecipients: [ "#danshou" ]))
                 presentationMode.wrappedValue.dismiss()
             }) {
                 Image(systemName: "checkmark.circle.fill")
