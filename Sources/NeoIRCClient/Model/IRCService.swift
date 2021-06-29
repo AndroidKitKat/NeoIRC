@@ -185,7 +185,6 @@ public final class IRCService: ObservableObject, Identifiable {
     private func connectIfNecessary() {
         guard case .offline = state else { return }
         guard let options = activeClientOptions else { return }
-        
         let client = IRCClient(options: options)
         client.delegate = self
         
@@ -314,6 +313,7 @@ extension IRCService: IRCClientDelegate {
                 return
             }
             print("going online:", client)
+            
             self.state = .online(client)
             
             let channels = account.joinedChannels.compactMap(IRCChannelName.init)
